@@ -1,0 +1,41 @@
+.list-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: .5rem 1rem;
+}
+
+.list-item-left {
+	display: flex;
+	align-items: center;
+	padding: .2rem .4rem;
+	transition: .1s all ease-in-out;
+}
+
+.list-item-left:hover {
+	cursor: pointer;
+	background-color: rgb(219, 219, 219);
+}
+
+.list-item-left>input[type='checkbox'] {
+	margin-right: .5rem;
+}
+
+.list-item-left>.completed {
+	text-decoration: line-through;
+}
+
+.list-item-left>.not-completed {
+	text-decoration: none;
+}
+
+.list-item>button {
+	margin-left: 1rem;
+	padding: .1rem .4rem .2rem .4rem;
+	border: none;
+}
+
+.list-item>button:hover {
+	cursor: pointer;
+	background-color: rgb(201, 201, 201);
+}
